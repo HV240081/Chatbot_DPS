@@ -40,18 +40,18 @@ a {
     color-scheme: dark;
   }
 }
-/* configuracion.css */
+
 .chat-container {
   width: 300px;
   height: 400px;
   overflow-y: scroll;
-  border: 1px solid #ccc;
+  border: 1px solid #636363;
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .respuesta-usuario {
-  background-color: #e6f7ff;
+  background-color: #25404d;
   text-align: right;
   margin-bottom: 10px;
   padding: 5px;
@@ -59,7 +59,7 @@ a {
 }
 
 .respuesta-chatbot {
-  background-color: #f1f1f1;
+  background-color: #4d4848;
   text-align: left;
   margin-bottom: 10px;
   padding: 5px;
@@ -76,3 +76,126 @@ a {
   padding: 5px 10px;
   cursor: pointer;
 }
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chat-container {
+  width: 400px;
+  max-width: 100%;
+  height: 500px;
+  background: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #0ff;
+  background: #222;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(45deg, #ff0099, #00ccff);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff66b2, #33ddff);
+  box-shadow: 0 0 10px rgba(255, 0, 153, 0.8);
+}
+
+.respuesta {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  max-width: 80%;
+  color: #fff;
+}
+
+.respuesta.usuario {
+  background-color: #0066ff;
+  align-self: flex-end;
+  box-shadow: 0 0 10px rgba(0, 102, 255, 0.6);
+}
+
+.respuesta.chatbot {
+  background-color: #ff6600;
+  align-self: flex-start;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.6);
+}
+input {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 380px;
+  text-align: center;
+  background: black;
+  color: cyan;
+  border-bottom: 2px solid cyan;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-bottom: 2px solid magenta;
+}
+
+        
+button {
+  padding: 10px 12px; 
+  width: 380px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, cyan, magenta);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 15px cyan;
+}
+
+ button:hover {
+  background: linear-gradient(135deg, magenta, cyan);
+  box-shadow: 0 0 20px magenta;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.titulo {
+  text-align: center;
+}
+
+        

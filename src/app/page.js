@@ -4,7 +4,6 @@
 import React from "react";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
-import styles from '../app/page.module.css';
 import configuracionChatbot from "../components/configuracion";
 import AnalizadorMensajes from "../components/respuesta";
 import ProveedorAcciones from "../components/mensajes";
@@ -12,11 +11,9 @@ import ProveedorAcciones from "../components/mensajes";
 function App() {
   return (
     <div>
-      <h1>Chatbot de Ayuda Estudiantil</h1>
-      <Chatbot 
-        config={configuracionChatbot} 
-        messageParser={AnalizadorMensajes} 
-        actionProvider={ProveedorAcciones} 
+        <h1 className="titulo">Chatbot UDB</h1>
+      <br></br>
+      <Chatbot config={configuracionChatbot} messageParser={AnalizadorMensajes} actionProvider={ProveedorAcciones} 
       />
     </div>
   );

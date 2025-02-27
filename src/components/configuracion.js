@@ -5,7 +5,7 @@ const configuraciones = {
   tema: 'oscuro', 
   idioma: 'es',   
   initialMessages: [
-    { texto: "¡Hola! Soy el asistente virtual de la institución educativa. ¿En qué puedo ayudarte hoy?", esUsuario: false }
+    { texto: "¡Hola! Soy el asistente virtual. ¿En qué puedo ayudarte hoy?", esUsuario: false }
   ],
 };
 

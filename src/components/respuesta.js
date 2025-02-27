@@ -1,4 +1,4 @@
-// respuesta.js
+// Desarrolla la interaccion entre usuario y chatbot
 import React from 'react';
 
 function Respuesta({ texto, esUsuario }) {
