@@ -12,6 +12,7 @@ import ProveedorAcciones from "../components/mensajes";
 function App() {
   return (
     <div>
+      <h1>Chatbot de Ayuda Estudiantil</h1>
       <Chatbot 
         config={configuracionChatbot} 
         messageParser={AnalizadorMensajes} 

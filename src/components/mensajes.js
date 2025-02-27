@@ -18,8 +18,6 @@ function Mensaje() {
 
   return (
     <div>
-      <link reel="stylesheet" href='../app/page.module.css'></link>
-      <h1>Chatbot de Ayuda Estudiantil</h1>
       <div className="chat-container">
         {respuestas.map((respuesta, index) => (
           <Respuesta key={index} texto={respuesta.texto} esUsuario={respuesta.esUsuario} />
